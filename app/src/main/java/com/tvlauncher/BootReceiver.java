@@ -22,7 +22,7 @@ public class BootReceiver extends BroadcastReceiver {
             context.startActivity(mainIntent);
 
             // Also start control service
-            Intent serviceIntent = new Intent(context, service.ControlService.class);
+            Intent serviceIntent = new Intent(context, com.tvlauncher.service.ControlService.class);
             context.startService(serviceIntent);
         }
     }
