@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
         });
 
         // Start control service
-        Intent serviceIntent = new Intent(this, service.ControlService.class);
+        Intent serviceIntent = new Intent(this, com.tvlauncher.service.ControlService.class);
         startService(serviceIntent);
     }
 
