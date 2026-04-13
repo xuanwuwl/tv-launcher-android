@@ -1,0 +1,15 @@
+# Projectiv Launcher Configuration
+# Place in /storage/emulated/0/ProjectivyLauncher/config.txt
+
+# Auto-start settings
+auto_start_enabled=true
+auto_start_package=com.example.liveapp
+
+# Theme settings
+theme=dark
+grid_columns=4
+grid_rows=3
+
+# Network settings
+control_port=7816
+heartbeat_interval=30
